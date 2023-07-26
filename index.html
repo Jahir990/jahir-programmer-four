@@ -24,8 +24,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        rose:'#F85559',
-                        fontcolor:'#121212'
+                        rose: '#F85559',
+                        fontcolor: '#121212'
                     }
                 }
             }
@@ -78,7 +78,7 @@
                             <h1 class="mb-5 text-5xl font-bold">Several implications of the <br> fruits and vegetables
                             </h1>
                             <p class="mb-5">Benefits obtainable from consumption of fruits </p>
-                            <button class="btn bg-[#F85559] text-white hover:text-black border-none">Shop Now</button>
+                            <button class="btn bg-rose border-none text-white hover:text-rose hover:bg-white hover:border-rose">Shop Now</button>
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -96,7 +96,7 @@
                             <h1 class="mb-5 text-5xl font-bold">They contain calcium, potassium, <br> carbohydrates,
                                 crude fibre and vitamin C</h1>
                             <p class="mb-5">It contains copper, which regulates the heart rate and blood pressure</p>
-                            <button class="btn bg-[#F85559] text-white hover:text-black border-none ">Shop Now</button>
+                            <button class="btn bg-rose border-none text-white hover:text-rose hover:bg-white hover:border-rose">Shop Now</button>
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -114,7 +114,7 @@
                             <h1 class="mb-5 text-5xl font-bold">Category are lime, lemon, orange,<br> pomelo and grape
                             </h1>
                             <p class="mb-5">Which are thought to contain some anticancer properties </p>
-                            <button class="btn bg-[#F85559] text-white hover:text-black border-none">Shop Now</button>
+                            <button class="btn bg-rose border-none text-white hover:text-rose hover:bg-white hover:border-rose">Shop Now</button>
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -131,7 +131,7 @@
                         <div class="max-w-md">
                             <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br> doorstep</h1>
                             <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn bg-[#F85559] text-white hover:text-black border-none">Shop Now</button>
+                            <button class="btn bg-rose border-none text-white hover:text-rose hover:bg-white hover:border-rose">Shop Now</button>
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -141,6 +141,36 @@
                 </div>
             </div>
         </div>
+        <!-- under bannar various fruits list -->
+        <div class=" flex w-[1196px] h-[250px] bg-slate-200 justify-around -mt-10 z-20">
+            <!-- <div class="flex justify-between">
+                hi
+            </div> -->
+            <div>
+                <img src="images/fruit1.png" class="grid grid-flow-row" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="images/fruit1.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="images/fruit1.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="images/fruit1.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="images/fruit1.png" alt="">
+                <p>Strawberry</p>
+            </div>
+        </div>
+
+
+
+
         <!-- Deal of the day Section -->
         <section class="flex mt-12 justify-between">
             <div class="w-1/2 mx-12 px-4">
@@ -179,16 +209,16 @@
             </div>
         </section>
         <!-- fruits section and modal -->
-      <hr>
-        <section class="mt-12 mx-12 flex gap-3">
+
+        <section class="mt-12 mx-12  flex flex-col lg:flex-row  gap-3">
             <div class="card h-[400px] w-[342px] bg-base-100 shadow-xl border">
-                <figure class="px-10 pt-10">
+                <figure class="lg:px-10 lg:pt-10">
                     <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">12.90$ - 18.85$</h2>
                     <p class="text-fontcolor">Apples</p>
-                    
+
 
                     <!-- rating bar -->
                     <div class="rating">
@@ -197,20 +227,20 @@
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
-                      </div>
+                    </div>
                     <div class="card-actions">
-                        <button class="text-rose font-bold">Details</button>
+                        <button class="text-rose font-bold" onclick="my_modal_1.showModal()">Details</button>
                     </div>
                 </div>
             </div>
             <div class="card h-[400px] w-[342px] bg-base-100 shadow-2xl border">
                 <figure class="px-10 pt-10">
-                    <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+                    <img src="images/fruit8.png" alt="Apple" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">12.90$ - 18.85$</h2>
-                    <p class="text-fontcolor">Apples</p>
-                    
+                    <p class="text-fontcolor">Red Dragon</p>
+
 
                     <!-- rating bar -->
                     <div class="rating">
@@ -219,20 +249,20 @@
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
-                      </div>
+                    </div>
                     <div class="card-actions">
-                        <button class="text-rose font-bold">Details</button>
+                        <button class="text-rose font-bold" onclick="my_modal_2.showModal()">Details</button>
                     </div>
                 </div>
             </div>
             <div class="card h-[400px] w-[342px] bg-base-100 shadow-2xl border">
                 <figure class="px-10 pt-10">
-                    <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+                    <img src="images/fruit7.png" alt="Apple" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">12.90$ - 18.85$</h2>
-                    <p class="text-fontcolor">Apples</p>
-                    
+                    <p class="text-fontcolor">Orange</p>
+
 
                     <!-- rating bar -->
                     <div class="rating">
@@ -241,20 +271,20 @@
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
-                      </div>
+                    </div>
                     <div class="card-actions">
-                        <button class="text-rose font-bold">Details</button>
+                        <button class="text-rose font-bold" onclick="my_modal_3.showModal()">Details</button>
                     </div>
                 </div>
             </div>
             <div class="card h-[400px] w-[342px] bg-base-100 shadow-2xl border">
                 <figure class="px-10 pt-10">
-                    <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+                    <img src="images/fruit9.png" alt="Apple" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">12.90$ - 18.85$</h2>
-                    <p class="text-fontcolor">Apples</p>
-                    
+                    <p class="text-fontcolor">Banana</p>
+
 
                     <!-- rating bar -->
                     <div class="rating">
@@ -263,23 +293,242 @@
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
                         <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
-                      </div>
+                    </div>
                     <div class="card-actions">
-                        <button class="text-rose font-bold">Details</button>
+                        <button class="text-rose font-bold" onclick="my_modal_4.showModal()">Details</button>
                     </div>
                 </div>
             </div>
-
         </section>
+        <!-- Shop all button section -->
+        <div class="  mx-12 mt-12 text-center">
+            <div class=" ">
+                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg  bg-rose text-white hover:text-rose hover:bg-white hover:border-rose">Shop
+                    All</button>
+            </div>
+
+        </div>
+
 
     </header>
+
+    <!--onclick flower teting for apple -->
+    <dialog id="my_modal_1" class="modal">
+        <form method="dialog" class="modal-box">
+            <div class="modal-action">
+                <div class="grid grid-flow-col">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Apple</h2>
+                        <p class="text-fontcolor">This your right choice!</p>
+
+
+                        rating bar
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                        </div>
+                        <div class="card-actions mr-2">
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose">Close</button>
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose"><a href="#">Buy Now</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </dialog>
+    <!--onclick testing  Red Dragon -->
+    <dialog id="my_modal_2" class="modal">
+        <form method="dialog" class="modal-box">
+            <div class="modal-action">
+                <div class="grid grid-flow-col">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit8.png" alt="Apple" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Red Dragon</h2>
+                        <p class="text-fontcolor">This your right choice!</p>
+
+
+                        rating bar
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                        </div>
+                        <div class="card-actions mr-2">
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose">Close</button>
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose"><a href="#">Buy Now</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </dialog>
+    <!-- Onclick flower testing for orange -->
+    <dialog id="my_modal_3" class="modal">
+        <form method="dialog" class="modal-box">
+            <div class="modal-action">
+                <div class="grid grid-flow-col">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit8.png" alt="orange" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Orange</h2>
+                        <p class="text-fontcolor">This your right choice!</p>
+
+
+                        rating bar
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                        </div>
+                        <div class="card-actions mr-2">
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose">Close</button>
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose"><a href="#">Buy Now</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </dialog>
+    <!-- Onclick flower testing for Banana -->
+    <dialog id="my_modal_4" class="modal">
+        <form method="dialog" class="modal-box">
+            <div class="modal-action">
+                <div class="grid grid-flow-col">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit9.png" alt="orange" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Banana</h2>
+                        <p class="text-fontcolor">This your right choice!</p>
+
+
+                        rating bar
+                        <div class="rating">
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-rose" />
+                        </div>
+                        <div class="card-actions mr-2">
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose">Close</button>
+                            <button class="btn bg-rose text-white hover:text-rose hover:bg-white hover:border-rose"><a href="#">Buy Now</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </dialog>
+
+
+
     <main>
+            <!-- Meet the team section -->
+        <div id="slide1" class="carousel-item relative mx-12 mt-14">
+            <div class="hero min-h-screen" style="background-image: url(images/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content grid grid-flow-row">
+
+                    <div class="mb-8">
+                        <p class="font-extrabold text-5xl">Meet the team section</p>
+                        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                    <div class="flex justify-center gap-12">
+                        <!-- member one -->
+                        <div class="max-w-md grid grid-flow-row">
+                            <img src="images/member1.png " class="mb-4" alt="">
+                            <p class="font-bold text-2xl">Awlad Hossain</p>
+                            <p>Fruits Expert</p>
+                            <div>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                            </div>
+                        </div>
+                        <!-- member two -->
+                        <div class="max-w-md grid grid-flow-row">
+                            <img src="images/member2.png" class="mb-4" alt="">
+                            <p class="font-bold text-2xl">Safia Chowdhury</p>
+                            <p>Fruits Expert</p>
+                            <div>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                            </div>
+                        </div>
+                        <!-- member three -->
+                        <div class="max-w-md grid grid-flow-row">
+                            <img src="images/member3.png" class="mb-4" alt="">
+                            <p class="font-bold text-2xl">Rokib Hossain</p>
+                            <p>Fruits Expert</p>
+                            <div>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                            </div>
+                        </div>
+                        <!-- member four -->
+                        <div class="max-w-md grid grid-flow-row">
+                            <img src="images/member4.png" class="mb-4" alt="">
+                            <p class="font-bold text-2xl">Chaity</p>
+                            <p>Fruits Expert</p>
+                            <div>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                                <a href="#">@</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
-    <footer>
-
+    <footer class="footer footer-center bg-fontcolor text-white mt-12 pt-16 ">
+        <div class="flex ">
+            <img src="images/logo.png" alt="">
+            <p class="font-bold text-5xl">Fruit Burst</p>
+        </div>
+        <div class="grid grid-flow-col">
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+            <div class="grid grid-flow-col ">
+                <a href="#"> @</a>
+                <a href="#">@</a>
+                <a href="#">@</a>
+            </div>
+        </div>
+        <div>
+            <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        </div>
     </footer>
-
 </body>
 
 </html>
